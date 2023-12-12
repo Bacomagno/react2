@@ -1,0 +1,73 @@
+/* Biblioteca CSS */
+
+.biblioteca{
+    padding: 30px;
+}
+#biblioteca{
+    padding: 30px;
+}
+.bannerBiblioteca{
+    margin-top: 80px;
+    height: 70vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+}
+
+.coleccionesBiblioteca{
+    margin-top: 30px;
+}
+
+.ebsco{
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+
+.colEbsco2{
+    /* margin: 0 20px 0 20px; */
+    padding: 10px;
+}
+
+.ebscoLogo{
+    height: 100px;
+    width: 100%;
+    background-size: contain;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    margin: 25px;
+}
+
+.bibliotecaBanco{
+    margin: 25px;
+    text-align: -webkit-center;
+}
+
+.rowBanrepCultural{
+    text-align: -webkit-center;
+    justify-content: center;
+}
+
+.serviciosBiblioteca i {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 25px; */
+    font-size: 28px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    line-height: 0;
+    color: var(--color-primary);;
+}
+
+.serviciosBiblioteca ul li{
+    line-height: 24px;
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: justify;
+}

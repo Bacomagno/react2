@@ -1,0 +1,132 @@
+.llamanos h3{
+    color: #2d72fc;
+    font-family: var(--font-primary);
+    margin-top: 40px;
+}
+
+.h1_contactForm{
+    color: white;
+}
+
+.about_contactForm{
+        overflow: hidden;
+        margin: 1px;
+        padding: 80px 0 50px 0 !important;
+}
+
+.bannerContactFrom{
+    height: 100%;
+    width: auto;
+}
+
+.formContac{
+    margin-left: 50px;
+    text-align-last: left;
+    background-color: rgb(0, 55, 108, 1);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.formContac .btn-warning{
+    text-align: center !important;
+    display: block;
+}
+
+.contact_item_form{
+    margin: 20px 27px;
+    text-align: center;
+}
+
+.item_contactForm{
+    /* margin: 20px 27px; */
+    display: flex;
+    align-items: center;
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
+
+.item_contactForm_div{
+    margin-top: inherit !important;
+}
+
+.label_contactForm{
+    /* display: grid; */
+    width: 100%;
+    /* padding: .8rem 0; */
+    grid-template-areas: "input";
+    > *{
+      grid-area: input;
+    }
+}
+
+.label_contactForm_div{
+    width: 100% !important;
+}
+
+.input_contactForm_message{
+    height: 100%;
+    outline: none;
+    border: 1px solid #00376c;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.input_contactForm_div{
+    height: 40px;
+    border: 1px solid #00376c;
+    font: inherit;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input_contactForm{
+    height: 40px;
+    border: 1px solid #00376c;
+    font: inherit;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100% !important;
+  
+    /* &:focus + .span_form_econtinua,
+    &:not(:placeholder-shown) + .span_form_econtinua{
+      color: var(--color-primary);
+      transform:  translate(8%, -80%) scale(.8);
+    } */
+}
+
+.span_contactForm{
+    transform-origin: left;
+    transition: transform .3s, color .3s;
+    font-size: 16px;
+    color:#fcdd2d;
+}
+
+.success-messageContact {
+    font-size: 20px;
+    width: 500px;
+    color: #fcdd2d;
+  }
+
+.text_ContactForm{
+    padding: 20px;
+}
+
+p.error-message {
+    color: #fcdd2d;
+    font-weight: bold;
+}
+
+.breadcrumbsContactenos {
+    padding: 14px 0 200px 0;
+    width: 100%;
+    margin-top: 80px;
+    /* height: 100vh; */
+    position: relative;
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+  }

@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------
+# Servicio Social CSS
+--------------------------------------------------------------*/
+.servicioSocial {
+    height: 50vh; 
+    background: center;
+    background-repeat: no-repeat;
+  }
+  .practicasImg2{
+    height: 20vh; 
+    background: center;
+    background-repeat: no-repeat;
+  }
+  .contactanos{
+    text-align: left;
+  }
+  .ulAplicar{
+    text-align: left;
+  }
+.tableInt{
+    width: 70%;
+    margin-top: 2%;
+}
+.colIzq{
+  width: 20%;
+  background-color: #ccc;
+}
+.th{
+    width: 20%;
+}
+.tableThInt{
+    width: 70% !important;
+}

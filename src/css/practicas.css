@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------
+# Practicas CSS
+--------------------------------------------------------------*/
+.practicas {
+    height: 30vh; 
+    background: center;
+    background-repeat: no-repeat;
+  }
+  .practicasImg3 {
+    height: 60vh; 
+    background: center;
+    background-repeat: no-repeat;
+  }
+  .contactanos{
+    text-align: left;
+  }
+  .h1{
+    font-family: var(--font-primary);
+    font-size: 52 !important;
+    color: var(--font-secondary);
+  }
+.tabla table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  th {
+    background-color: #ccc;
+    text-align: left;
+    width: 20% !important;
+  }
+  
+  th:first-child {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 50%;
+  }
+  
+  td {
+    width: 50%;
+  }
+  tr{
+    border-width: 3px;
+    line-break: anywhere;
+    text-align: left;
+  }
+  .ul{
+    font-size: large !important;
+  }
+  .listaPracticas{
+    text-align: left;
+  }

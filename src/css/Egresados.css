@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------
+# Egresados CSS
+--------------------------------------------------------------*/
+.egresados {
+    height: 40vh; 
+    background: center;
+    background-repeat: no-repeat;
+  }
+.video{
+    margin-top: 10px;
+}
+.egresados .li{
+  font-size: 30px;
+  font-family: var(--font-secondary);
+}
+.egresados h2 {
+  font-size: 56px;
+  font-weight: 500;
+  color: #fff;
+  font-family: var(--font-secondary);
+}
+.egresados-contactUsImg{
+  width: 100%;
+  padding: 50px;
+}
+.egresadosContactCard{
+  align-items: center;
+  justify-content: center;
+}
+.egresados ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 0 10px 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.egresados ol a {
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.3s;
+}
+
+.egresados ol a:hover {
+  text-decoration: underline;
+}
+
+.egresados ol li+li {
+  padding-left: 10px;
+}
+
+.egresados ol li+li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #fff;
+  content: "/";
+}

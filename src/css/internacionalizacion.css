@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+# Internacionalización CSS
+--------------------------------------------------------------*/
+.internacImg1 {
+    height: 95vh; 
+    width: 170vh;
+    background: center;
+    background-repeat: no-repeat;
+  }
+  .internacImg2{
+    height: 92vh; 
+    width: 160vh;
+    background: center;
+    background-repeat: no-repeat;
+  }
+  .internacImg3{
+    height: 25vh;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .internacImg4{
+    height: 25vh;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .internacImg5{
+    height: 20vh;
+    background: center;
+    background-repeat: no-repeat;
+  }
+  .rowInternac{
+    width: 50%;
+    max-width: 50%;
+  }
+  .column{
+    width: 50%;
+    max-width: 50%;
+    display: inline-block;
+  }
